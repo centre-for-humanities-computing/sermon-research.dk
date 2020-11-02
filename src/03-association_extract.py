@@ -1,5 +1,5 @@
 """
-extract all pron-verb association
+Extract all pronoun-verb pairings from previously extracted lists
 """
 import ast
 import pandas as pd
@@ -13,11 +13,11 @@ def getallis(l,match):
 
 def sent2asso(row):
     """
-    - keep order index in each association tuple for possible sorting
+    Keep order index in each association tuple for possible sorting
     """
     prons = str2list(row[2])
     verbs = str2list(row[3])
-    target = [t[0] for t in verbs]# verb ids
+    target = [t[0] for t in verbs] #verb ids
     res = []
     for pron in prons:
         source = pron[0]
@@ -31,7 +31,7 @@ def sent2asso(row):
 
 def sent2asso_df(row):
     """
-    remove order index and write to word pair (target, source) dataframe
+    Remove order index and write to word pair (target, source) dataframe
     """
     doc_id = str(row[0])
     sent_id = int(row[1])
@@ -43,8 +43,8 @@ def sent2asso_df(row):
     df.columns = ["doc_id", "sent_id", "source", "target"]
     return df
 
-df = pd.read_csv("../data/content/content_query.dat", header = 0, index_col = None)
-
+# Read in previously extracted data
+df = pd.read_csv("in/content_QUERYTERMS.dat", header = 0, index_col = None)
 for idx in range(df.shape[0]):
     print()
     print("sent {} of {}".format(idx,df.shape[0]))
@@ -58,4 +58,5 @@ for idx in range(df.shape[0]):
     except:
         continue
 
-df_asso.to_csv("associations.dat", index = False)
+# Save dataframe to csv
+df_asso.to_csv("in/associations.dat", index = False)
