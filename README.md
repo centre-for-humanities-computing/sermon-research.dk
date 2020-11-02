@@ -15,7 +15,7 @@ The is presented for evaluative purposes only. These scripts would require subst
 
 ## Output
 
-The final output of these scripts can be found in tabular format in the folder called ```òutput```. There are two relevant tables, one for sermons by pastors who are women and one by pastors who are men. Otherwise, both tables have an identical structure:
+The final output of these scripts can be found in tabular format in the folder called ```òutput```. There are two relevant tables, one for sermons by pastors who are women (*F*) and one by pastors who are men (*M*). Otherwise, both tables have an identical structure:
 
 - ```word:``` A specific verb that has been extracted from the sermons.
 - ```frequency:``` The raw frequency of how often that verb appears in the sermons.
