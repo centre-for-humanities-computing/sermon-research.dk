@@ -1,4 +1,4 @@
-# Studying sermons in the Danish national church
+# ermons as Data: Introducing a Corpus of 11955 Danish Sermons
 
 This repository contains code and repo in relation the following publication:
 
