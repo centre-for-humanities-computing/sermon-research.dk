@@ -2,7 +2,7 @@
 
 This repository contains code and repo in relation the following publication:
 
-Agersnap, A., Kristensen-McLachlan, R.D, Johansen, K.H., Schjødt, U., & Nielbo, K.L. (2020). "*Sermons as Data: Introducing a Corpus of 11955 Danish Sermons*", *Journal of Cultural Analytics*, [https://doi.org/10.22148/001c.18238](https://doi.org/10.22148/001c.18238)
+Agersnap, A., Kristensen-McLachlan, R.D, Johansen, K.H., Schjødt, U., & Nielbo, K.L. (2020). "*Sermons as Data: Introducing a Corpus of 11955 Danish Sermons*", *Journal of Cultural Analytics*, 12, 1-27, [https://doi.org/10.22148/001c.18238](https://doi.org/10.22148/001c.18238)
 
 In this article, we present a new corpus comprising sermons from pastors in the Evangelical Lutheran Church in Denmark.
 
