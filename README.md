@@ -10,7 +10,7 @@ In this article, we present a new corpus comprising sermons from pastors in the 
 
 All code used in the article can be found in the folder ```src```. All code is written in Python and is modular. Scripts are numbered sequentially, in the order that they should be executed, with each creating transformed data for the next script to use.
 
-The is presented for evaluative purposes only. These scripts would require substantial refactoring in order to be considered production-ready!
+The code in this repo is presented for evaluative purposes only. These scripts would require substantial refactoring in order to be considered production-ready!
 
 ## Output
 
