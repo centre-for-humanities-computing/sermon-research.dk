@@ -1,4 +1,4 @@
-# ermons as Data: Introducing a Corpus of 11955 Danish Sermons
+# Sermons as Data: Introducing a Corpus of 11955 Danish Sermons
 
 This repository contains code and repo in relation the following publication:
 
