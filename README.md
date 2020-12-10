@@ -1,6 +1,6 @@
 # Sermons as Data: Introducing a Corpus of 11955 Danish Sermons
 
-This repository contains code and repo in relation the following publication:
+This repository contains code and data in relation the following publication:
 
 [Agersnap, A., Kristensen-McLachlan, R.D, Johansen, K.H., Schjødt, U., & Nielbo, K.L. (2020). "*Sermons as Data: Introducing a Corpus of 11955 Danish Sermons*", *Journal of Cultural Analytics*, 12, 1-27.](https://doi.org/10.22148/001c.18238)
 
